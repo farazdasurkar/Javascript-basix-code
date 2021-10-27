@@ -9,5 +9,5 @@ document.getElementById("fromindex").innerHTML = "I am from HoMe.js"
 
 
 var jsage = prompt('what is your age')
-document.getElementById("fromindex").innerHTML = "jsage"
+document.getElementById("fromindex").innerHTML = jsage
 
