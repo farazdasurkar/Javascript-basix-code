@@ -7,4 +7,5 @@ console.log(b)
 
 document.getElementById("fromindex").innerHTML = "I am from HoMe.js"
 
-prompt('what is your age')
+
+var jsage = prompt('what is your age')
