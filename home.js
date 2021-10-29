@@ -16,7 +16,23 @@
 // Intlliscore = Math.floor(Intlliscore);
 // console.log(Intlliscore);
 
-prompt("Whats Is Your Name: ")
+// prompt("Whats Is Your Name: ")
+// var Intlliscore = Math.random() * 100;
+// Intlliscore = Math.floor(Intlliscore) + 1;
+// alert("Your Intelegent scrore is " + Intlliscore + "%")
+
+prompt("What is your Name?")
 var Intlliscore = Math.random() * 100;
 Intlliscore = Math.floor(Intlliscore) + 1;
 alert("Your Intelegent scrore is " + Intlliscore + "%")
+
+if (Intlliscore > 70) {
+    alert("You are Einstien ! " + Intlliscore + "%");
+
+}
+if (Intlliscore > 30 && Intlliscore <= 70) {
+    alert("You are Elon Musk ! " + Intlliscore + "%");
+}
+if (Intlliscore <= 30) {
+    alert("You are Mr. Bean " + Intlliscore + "%");
+}
